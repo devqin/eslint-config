@@ -1,0 +1,47 @@
+{
+  "name": "@devqin/eslint-config",
+  "version": "1.0.0",
+  "description": "linter use eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devqin/eslint-config.git"
+  },
+  "keywords": [
+    "linter",
+    "rules",
+    "for",
+    "javascript",
+    "typescript",
+    "react",
+    "vue"
+  ],
+  "author": "devqin@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devqin/eslint-config/issues"
+  },
+  "homepage": "https://github.com/devqin/eslint-config#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-vue": "latest",
+    "typescript": "latest",
+    "vue-eslint-parser": "latest",
+    "eslint": "latest"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
+}
