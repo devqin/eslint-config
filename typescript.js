@@ -137,12 +137,6 @@ module.exports = {
       },
     ],
     /**
-     * 类型断言必须使用 as Type，禁止使用 <Type>
-     * @category TypeScript
-     * @reason <Type> 容易被理解为 jsx
-     */
-    '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
-    /**
      * 禁止使用 Array 构造函数
      * @category TypeScript
      * @fixable
@@ -200,11 +194,6 @@ module.exports = {
      */
     '@typescript-eslint/no-non-null-assertion': 'off',
     /**
-     * 禁止对对象字面量进行类型断言（断言成 any 是允许的）
-     * @category TypeScript
-     */
-    '@typescript-eslint/no-object-literal-type-assertion': 'error',
-    /**
      * 禁止给类的构造函数的参数添加修饰符
      * @category TypeScript
      */
@@ -220,12 +209,6 @@ module.exports = {
      * @category TypeScript
      */
     '@typescript-eslint/no-this-alias': 'error',
-    /**
-     * 禁止使用三斜杠引入类型定义文件
-     * @category TypeScript
-     * @reason 三斜杠是已废弃的语法
-     */
-    '@typescript-eslint/no-triple-slash-reference': 'error',
     /**
      * 禁止使用类型别名
      * @category TypeScript
@@ -274,13 +257,6 @@ module.exports = {
      * @fixable
      */
     '@typescript-eslint/prefer-function-type': 'error',
-    /**
-     * 优先使用接口而不是字面类型
-     * @category TypeScript
-     * @reason 接口可以 implement extend 和 merge
-     * @fixable
-     */
-    '@typescript-eslint/prefer-interface': 'error',
     /**
      * 禁止使用 module 来定义命名空间
      * @category TypeScript
